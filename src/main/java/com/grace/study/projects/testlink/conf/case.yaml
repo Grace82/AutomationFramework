@@ -1,0 +1,2 @@
+exclude_test_file: [TestWeatherSoapWebservice1]
+test_run: {average_time: 0, case_num: 0, case_time: 0, priority: 0}

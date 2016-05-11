@@ -1,0 +1,6 @@
+email_sender: {
+    smtp_server: SRCORPWINMAIL03.ecwise.local,
+    sender: Auto_Test@ecwise.com,
+    sender_username: ecwise\Auto_Test,
+    sender_password: ecwise@123,
+}

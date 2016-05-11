@@ -1,0 +1,75 @@
+email_receiver: {
+    Bob:{
+        receiver: bjiang@ecwise.com,
+        cc: ,    
+    },
+    Grace:{
+        receiver: yhuang2@ecwise.com,
+        cc: ,    
+    },
+    Tom:{
+        receiver: Tom@ecwise.com,
+        cc: ,
+    }
+}
+
+log_report: {
+    log_file: projects\RS\log\APITest.log,
+    report_output: ..\test-reports,
+    access_address:  ,    
+    version: v0.1,
+    ui_test: 0,
+}
+
+env: {
+    QA: {
+        users: {
+            Users_1: {
+                email_address: automation_pci@ecwise.com,
+                password: Password@1234
+            },
+            Users_2: {
+                email_address: automation_pci@ecwise.com,
+                password: Password@1234
+            }
+        },
+        process_num: 1,
+        RSDB: {
+            host: 10.0.40.208,
+            username: root,
+            password: Password1234,
+            dbname: reward_service_2_0,
+            port: 3306,
+            charset: utf8
+        },
+        test: {
+            host: 54.215.11.93,
+            username: c2r_dev_test,
+            password: gE7uK+sT,
+            dbname: se4_demo,
+            port: 3306,
+            charset: utf8
+        }
+        },
+        INT: {
+        users: {
+            Users_1: {
+                email_address: automation_pci@ecwise.com,
+                password: Password@1234
+            },
+            Users_2: {
+                email_address: automation_pci@ecwise.com,
+                password: Password@1234
+            }
+        },
+        process_num: 1,
+        WEATHER: {
+            wsdl_host: "http://wsf.cdyne.com/WeatherWS/Weather.asmx?WSDL",
+            username: root,
+            password: Password1234,
+            dbname: reward_service_2_0,
+            port: 3306,
+            charset: utf8,
+        }
+        }
+}
